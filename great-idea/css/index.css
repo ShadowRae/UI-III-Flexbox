@@ -64,3 +64,198 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Great Ideas Index Page CSS */
+body{
+	height: 300%;
+	width: 96%;
+	margin: 2%;
+	padding: 2%;
+}
+/* header & nav */
+header{
+	display:flex;
+	justify-content: space-evenly;
+}
+nav{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	width: 65%;
+}
+nav a{
+	color: gray;
+	text-decoration: none;
+}
+ .title{
+	display: flex;
+	margin: 5%;
+	justify-content: center; 
+} 
+h1{
+	font-size: 80px;
+	padding: 10%;
+	text-align: center;
+	display: flex;
+	flex-direction: column;	
+}
+.button{
+	display: flex;
+	justify-content: center;
+	padding: 1px;
+}
+.button span{
+	border: 1px solid black;
+	padding: 3px 15px;
+}
+.codeSnippet{
+	margin: 0 5% 0 20%;
+	display: flex;
+}
+.content{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-flow: row wrap;
+}
+#features{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+#about{
+	display: flex;
+	width: 50%;
+	flex-flow: row wrap;	
+}	
+.middle-img{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 8px 5px;
+}
+#services{
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+}
+#product{
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+}
+#vision{
+	display: flex;
+	flex-direction: column;
+	width: 33%;
+}
+#contact{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-top: 2%;
+}
+#contact address{
+	display: flex;
+	flex-direction: column;
+	padding: 2% 0%;
+}
+.number{
+	display: flex;
+	flex-direction: column;
+	padding: 2% 0%;
+}
+footer{
+	display: flex;
+	justify-content: center;
+	padding: 5%;
+}
+
+/* Services CSS */
+.services-header-img{
+	display: block;
+	margin: auto;
+	width: 100%;
+	padding: 2% 0;
+}
+.services{
+	padding-bottom: 2%;
+}
+.services h2{
+	font-size: 25px;
+}
+.list{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+	
+}
+
+.boxes{
+	display: flex;
+	justify-content: flex-start;
+	width: 50%;
+	align-content: space-around;
+	margin-bottom: 5px;
+}
+.boxes2{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	margin-bottom: 5px;
+}
+.boxOne{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
+}
+.boxTwo{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
+}
+.boxThree{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
+}
+.boxFour{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
+}
+.boxFive{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
+}
+.boxSix{
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
+}
+/* Facts CSS */
+.facts{
+	display: flex;
+	margin: 2% 0;
+}
+.facts div{
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
