@@ -248,6 +248,14 @@ footer{
 /* Facts CSS */
 .facts{
 	display: flex;
+	margin: 2% 0;
+}
+.facts div{
+	display: flex;
+	flex-direction: column;
+}
+
+
 
 
 
