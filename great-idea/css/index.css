@@ -171,9 +171,6 @@ footer{
 }
 
 /* Services CSS */
-body{
-	border: 3px solid purple;
-}
 .services-header-img{
 	display: block;
 	margin: auto;
@@ -248,5 +245,9 @@ body{
 	border: 1px solid black;
 	background-color: aliceblue;
 }
+/* Facts CSS */
+.facts{
+	display: flex;
+
 
 
