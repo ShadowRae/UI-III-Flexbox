@@ -186,47 +186,67 @@ body{
 .services h2{
 	font-size: 25px;
 }
-.boxes{
-	border: 3px solid pink;
+.list{
 	display: flex;
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+	
 }
-.boxes div{
-	border: 1px solid black;
-	background-color: lightgray;
+
+.boxes{
 	display: flex;
-	justify-content: space-around;
+	justify-content: flex-start;
 	width: 50%;
-	height: 5%;
-	padding: 2%;
+	align-content: space-around;
+	margin-bottom: 5px;
+}
+.boxes2{
+	display: flex;
+	justify-content: flex-end;
+	width: 50%;
+	margin-bottom: 5px;
 }
 .boxOne{
 	display: flex;
 	flex-direction: column;
-	
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
 }
 .boxTwo{
 	display: flex;
 	flex-direction: column;
-	
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
 }
 .boxThree{
 	display: flex;
 	flex-direction: column;
-	
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
 }
 .boxFour{
 	display: flex;
 	flex-direction: column;
-	
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
 }
 .boxFive{
 	display: flex;
 	flex-direction: column;
-	
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
 }
 .boxSix{
 	display: flex;
 	flex-direction: column;
-	
+	width: 90%;
+	border: 1px solid black;
+	background-color: aliceblue;
 }
+
+
