@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/* Great Ideas Index Page CSS */
 body{
 	height: 300%;
 	width: 96%;
@@ -80,6 +81,10 @@ nav{
 	flex-flow: row wrap;
 	justify-content: space-evenly;
 	width: 65%;
+}
+nav a{
+	color: gray;
+	text-decoration: none;
 }
  .title{
 	display: flex;
@@ -163,4 +168,15 @@ footer{
 	display: flex;
 	justify-content: center;
 	padding: 5%;
+}
+
+/* Services CSS */
+body{
+	border: 3px solid purple;
+}
+.services-header-img{
+	display: block;
+	margin: auto;
+	width: 100%;
+	padding: 2% 0;
 }
